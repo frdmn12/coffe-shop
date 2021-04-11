@@ -1,0 +1,10 @@
+/*? Landing Page */
+.header {
+  justify-content: space-between;
+  display: flex;
+  background-color: aqua;
+  width: 100px;
+  padding: 90px;
+}
+
+/*? Landing Page */
