@@ -14,7 +14,12 @@ class LandingPage extends Component {
       <div>
         <div className={style.landingPage}>
           <NavBar />
+          <div className={style.bigTitle}>
+            <p>COFFEMORN</p>
+            
+          </div>
         </div>
+        {/* PAGE */}
         <div>pppp</div>
       </div>
     );
