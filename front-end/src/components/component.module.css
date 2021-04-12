@@ -1,10 +1,19 @@
 /*? Landing Page */
+* {
+  box-sizing: border-box;
+}
 .header {
   justify-content: space-between;
   display: flex;
-  background-color: aqua;
-  width: 100px;
-  padding: 90px;
+  flex-direction: row;
+  background-color: transparent;
+  box-sizing: border-box;
+  margin: 9px;
+    /* height: 50px; */
 }
 
+.logo {
+  padding: 9px;
+  background-color: aliceblue;
+}
 /*? Landing Page */
