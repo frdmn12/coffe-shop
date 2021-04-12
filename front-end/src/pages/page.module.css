@@ -1,8 +1,20 @@
 /*? Landing Page */
 
 .landingPage {
-  background: linear-gradient(180deg, #121212 0%) rgba(84, 84, 84, 0) 44.27%,
-    url(../assets/landingPage.jpg);
+  /* background-image: url(../assets/landingPage.jpg); */
+  /* max-width: fit-content; */
+  background: 
+  linear-gradient(180deg, #010101 0%, rgba(84, 84, 84, 0) 35.02%),
+    url(../assets/landingPage2.jpg);
+  /* Full height */
+  height: 100vh;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  /* margin-top: 10px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*? Landing Page */
