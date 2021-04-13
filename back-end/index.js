@@ -2,6 +2,7 @@
 const express = require('express')
 const cors = require('cors')
 const bodyparser = require('body-parser')
+const { productRouter } = require('./routers')
 
 // app
 const app = express()
@@ -14,6 +15,7 @@ app.use(bodyparser.json())
 // routers
 const mainResponse = (req, res) => res.status(200).send('<h1>BACKEND-UP</h1>')
 app.get("/", mainResponse)
+app.use("/products", productRouter)
 
 
 // local machine
