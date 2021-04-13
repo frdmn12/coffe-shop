@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const query = require("../database");
 
-// Get All Product
+// Get All Users
 router.get("/", (req, res) => {
   let sql = `select * from products`;
   query(sql, (err, getProduct) => {
@@ -10,4 +10,4 @@ router.get("/", (req, res) => {
   });
 });
 
-module.exports = router;
+module.exports = router
